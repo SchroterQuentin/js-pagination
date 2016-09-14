@@ -1,0 +1,2 @@
+# js-pagination
+Beautifull pagination
