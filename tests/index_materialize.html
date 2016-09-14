@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Materialize pagination</title>
+    <link rel="stylesheet" href="static/materialize/css/materialize.min.css">
+
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container center-align">
+        <h1 class="header">Pagination bar in materialize style</h1>
+        <ul class="pagination">
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+            <li class="active"><a href="#!" rel="1">1</a></li>
+            <li class="waves-effect"><a href="#!" rel="2">2</a></li>
+            <li class="waves-effect"><a href="#!" rel="3">3</a></li>
+            <li class="waves-effect"><a href="#!" rel="4">4</a></li>
+            <li class="waves-effect"><a href="#!" rel="5">5</a></li>
+            <li class="waves-effect"><a href="#!" rel="6">6</a></li>
+            <li class="waves-effect"><a href="#!" rel="7">7</a></li>
+            <li class="waves-effect"><a href="#!" rel="8">8</a></li>
+            <li class="waves-effect"><a href="#!" rel="9">9</a></li>
+            <li class="waves-effect"><a href="#!" rel="10">10</a></li>
+            <li class="waves-effect"><a href="#!" rel="11">11</a></li>
+            <li class="waves-effect"><a href="#!" rel="12">12</a></li>
+            <li class="waves-effect"><a href="#!" rel="13">13</a></li>
+            <li class="waves-effect"><a href="#!" rel="14">14</a></li>
+            <li class="waves-effect"><a href="#!" rel="15">15</a></li>
+            <li class="waves-effect"><a href="#!" rel="16">16</a></li>
+            <li class="waves-effect"><a href="#!" rel="17">17</a></li>
+            <li class="waves-effect"><a href="#!" rel="18">18</a></li>
+            <li class="waves-effect"><a href="#!" rel="19">19</a></li>
+            <li class="waves-effect"><a href="#!" rel="20">20</a></li>
+            <li class="waves-effect"><a href="#!" rel="21">21</a></li>
+            <li class="waves-effect"><a href="#!" rel="22">22</a></li>
+            <li class="waves-effect"><a href="#!" rel="23">23</a></li>
+            <li class="waves-effect"><a href="#!" rel="24">24</a></li>
+            <li class="waves-effect"><a href="#!" rel="25">25</a></li>
+            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+        <ul class="pagination">
+            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+            <li class="waves-effect"><a href="#!" rel="1">1</a></li>
+            <li class="waves-effect"><a href="#!" rel="2">2</a></li>
+            <li class="waves-effect"><a href="#!" rel="3">3</a></li>
+            <li class="waves-effect"><a href="#!" rel="4">4</a></li>
+            <li class="waves-effect"><a href="#!" rel="5">5</a></li>
+            <li class="waves-effect"><a href="#!" rel="6">6</a></li>
+            <li class="waves-effect"><a href="#!" rel="7">7</a></li>
+            <li class="active"><a href="#!" rel="8">8</a></li>
+            <li class="waves-effect"><a href="#!" rel="9">9</a></li>
+            <li class="waves-effect"><a href="#!" rel="10">10</a></li>
+            <li class="waves-effect"><a href="#!" rel="11">11</a></li>
+            <li class="waves-effect"><a href="#!" rel="12">12</a></li>
+            <li class="waves-effect"><a href="#!" rel="13">13</a></li>
+            <li class="waves-effect"><a href="#!" rel="14">14</a></li>
+            <li class="waves-effect"><a href="#!" rel="15">15</a></li>
+            <li class="waves-effect"><a href="#!" rel="16">16</a></li>
+            <li class="waves-effect"><a href="#!" rel="17">17</a></li>
+            <li class="waves-effect"><a href="#!" rel="18">18</a></li>
+            <li class="waves-effect"><a href="#!" rel="19">19</a></li>
+            <li class="waves-effect"><a href="#!" rel="20">20</a></li>
+            <li class="waves-effect"><a href="#!" rel="21">21</a></li>
+            <li class="waves-effect"><a href="#!" rel="22">22</a></li>
+            <li class="waves-effect"><a href="#!" rel="23">23</a></li>
+            <li class="waves-effect"><a href="#!" rel="24">24</a></li>
+            <li class="waves-effect"><a href="#!" rel="25">25</a></li>
+            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+    </div>
+    <script src="static/jquery-3.1.0.min.js"></script>
+    <script src="static/materialize/js/materialize.min.js"></script>
+    <script src="../pagination.js"></script>
+    <script>
+        window.onresize = no_wrap
+        $(document).ready(function(){
+            setTimeout(function() {
+                no_wrap();
+            }, 10);
+        })
+    </script>
+</body>
+
+</html>
